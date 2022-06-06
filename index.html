@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <table class="w3-table">
+            <tr>
+              <th id="name">Takım</th>
+              <th>O</th>
+              <th>G</th>
+              <th>B</th>
+              <th>M</th>
+              <th>A</th>
+              <th>Y</th>
+              <th>AV</th>
+              <th>P</th>
+
+            </tr>
+            <tr id="takimlar">
+              <td id="name">Manu</td>
+              <td id="mO">6</td>
+              <td id="mG">3</td>
+              <td id="mB">2</td>
+              <td id="mM">1</td>
+              <td id="mA">11</td>
+              <td id="mY">8</td>
+              <td id="mAv">3</td>
+              <td id="mP">11</td>
+
+            </tr>
+            <tr id="takimlar">
+              <td id="name">Villareal</td>
+              <td id="vO">6</td>
+              <td id="vG">3</td>
+              <td id="vB">1</td>
+              <td id="vM">2</td>
+              <td id="vA">12</td>
+              <td id="vY">9</td>
+              <td id="vAv">3</td>
+              <td id="vP">10</td>
+               
+              </tr>
+              <tr class="lpzg" id="takimlar">
+                <td id="name">Leipzig</td>
+                <td id="lO">6</td>
+                <td id="lG">1</td>
+                <td id="lB">3</td>
+                <td id="lM">2</td>
+                <td id="lA">12</td>
+                <td id="lY">13</td>
+                <td id="lAv">-1</td>
+                <td id="lP">6</td>
+                 
+                
+              </tr>
+              <tr class="young" id="takimlar">
+               <td id="name">YoungBoys</td>
+               <td id="yO">6</td>
+               <td id="yG">1</td>
+               <td id="yB">2</td>
+               <td id="yM">3</td>
+               <td id="yA">7</td>
+               <td id="yY">12</td>
+               <td id="yAv">-5</td>
+               <td id="yP">5</td>
+              
+            </tr>
+            </table>
+<div class="maclar">
+            <div class="flex mac1"><p> Manu <input id="manuGol" type="number"></p> 
+                                   <p><input id="villarealGol" type="number">Villareal</p></div>
+
+            <div class="flex mac2 "><p>Leipzig <input id="leipzigGol" type="number"></p>
+                                   <p><input id="youngBoysGol" type="number">YoungBoys</p></div>
+            </div>
+          <button id="hesapla"onclick="skor()">hesapla</button>
+        </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
